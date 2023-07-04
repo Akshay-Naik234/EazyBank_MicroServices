@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+   mysqldbLoans:
+      container_name: mysqldbLoans
+      image: mysql
+      environment:
+         MYSQL_ROOT_PASSWORD: 234868ab
+         MYSQL_DATABASE: loansdb
+      networks:
+         eazybank:
+         
+   loans:
+      image: bugbuster2348/loans:latest
+      build:
+         context: ./
+         dockerfile: Dockerfile
+      ports:
+         - "8090:8090"
+      depends_on:
+         - mysqldbLoans
+      networks:
+         eazybank:
+      restart: on-failure
+
+networks:
+   eazybank:
+   

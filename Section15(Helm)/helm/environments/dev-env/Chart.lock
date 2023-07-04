@@ -1,0 +1,33 @@
+dependencies:
+- name: eazybank-common
+  repository: file://../../eazybank-common
+  version: 0.1.0
+- name: zipkin
+  repository: file://../../eazybank-services/zipkin
+  version: 0.1.0
+- name: configserver
+  repository: file://../../eazybank-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../eazybank-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../eazybank-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../eazybank-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../eazybank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../eazybank-services/gatewayserver
+  version: 0.1.0
+- name: mysql
+  repository: file://../../eazybank-services/mysql
+  version: 0.1.0
+- name: keycloak
+  repository: file://../../eazybank-services/keycloak
+  version: 0.1.0
+digest: sha256:11b335e178d00db1341af7debbd2818048e6503bb7d5688f1bb0c0edab31b68b
+generated: "2023-06-24T10:02:13.6786606+05:30"

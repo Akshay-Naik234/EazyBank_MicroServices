@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+      
+   configserver:
+      image: bugbuster2348/configserver:latest
+      build:
+         context: ./
+         dockerfile: Dockerfile
+      ports:
+         - "8071:8071"
+      networks:
+         eazybank:
+      restart: on-failure
+
+networks:
+   eazybank:
+   

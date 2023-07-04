@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+   mysqldbCards:
+      container_name: mysqldbCards
+      image: mysql
+      environment:
+         MYSQL_ROOT_PASSWORD: 234868ab
+         MYSQL_DATABASE: cardsdb
+      networks:
+         eazybank:
+         
+   Cards:
+      image: bugbuster2348/cards:latest
+      build:
+         context: ./
+         dockerfile: Dockerfile
+      ports:
+         - "9000:9000"
+      depends_on:
+         - mysqldbCards
+      networks:
+         eazybank:
+      restart: on-failure
+
+networks:
+   eazybank:
+   

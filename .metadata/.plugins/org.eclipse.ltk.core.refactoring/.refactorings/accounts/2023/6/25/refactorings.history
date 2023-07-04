@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;accounts/kubernetes/mysql.yml&apos; to &apos;2_mysql.yml&apos;" description="Rename resource &apos;mysql.yml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="kubernetes/mysql.yml" name="2_mysql.yml" stamp="1687057956713" updateReferences="true"/>
+</session>

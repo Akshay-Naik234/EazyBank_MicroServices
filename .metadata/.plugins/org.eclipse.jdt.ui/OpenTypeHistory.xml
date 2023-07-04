@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=accounts/C:\/Users\/Admin\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.12\/spring-data-jpa-2.7.12.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1684555199530"/>
+    <typeInfo handle="=gatewayserver/C:\/Users\/Admin\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-gateway-server\/3.1.7\/spring-cloud-gateway-server-3.1.7.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.cloud=/=/maven.artifactId=/spring-cloud-gateway-server=/=/maven.version=/3.1.7=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.cloud.gateway.filter(GlobalFilter.class[GlobalFilter" modifiers="1537" timestamp="1685168491438"/>
+</typeInfoHistroy>

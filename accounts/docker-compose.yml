@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+   mysqldbAccount:
+      container_name: mysqldbAccount
+      image: mysql
+      environment:
+         MYSQL_ROOT_PASSWORD: 234868ab
+         MYSQL_DATABASE: accountdb
+      networks:
+         eazybank:
+         
+   accounts:
+      image: bugbuster2348/accounts:latest
+      mem_limit: 700m
+      build:
+         context: ./
+         dockerfile: Dockerfile
+      ports:
+         - "8080:8080"
+      depends_on:
+         - mysqldbAccount
+      networks:
+         eazybank:
+      restart: on-failure
+
+networks:
+   eazybank:
+   
